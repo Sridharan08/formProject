@@ -10,7 +10,7 @@ app.use(cors())
 DBConnect()
 
 
-app.get('/details',rout.getdetails)
+app.get('/',rout.getdetails)
 app.get('/reg/:id',rout.getregister)
 app.post('/reg',rout.createregister)
 app.put('/reg/:id',rout.updateregister)
